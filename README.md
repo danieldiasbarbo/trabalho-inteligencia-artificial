@@ -1,4 +1,4 @@
-# Trabalho Compiladores
+# Trabalho Inteligência Artificial
 
 ### Operating System
 - Windows
