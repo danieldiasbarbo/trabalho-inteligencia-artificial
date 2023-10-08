@@ -3,6 +3,13 @@ class Sudoku:
         self.N = N
         self.board = [[0] * (N**2) for _ in range(N**2)]
 
+    def get_filhos():
+        # Calcular os possíveis filhos
+        return set()
+
+    def check_completion():
+        return True
+
     def is_valid(self, row, col, num):
         # Verifica se o número já está na mesma linha ou coluna
         for i in range(self.N**2):

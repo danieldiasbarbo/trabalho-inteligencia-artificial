@@ -1,10 +1,4 @@
-from sudoku.sudoku import Sudoku
+from sudoku.busca_profundidade_iterativa import buscar
 
-N = 3  # Tamanho da subgrade (NxN)
-sudoku = Sudoku(N)
-
-if sudoku.solve():
-    print("Solução encontrada:")
-    print(sudoku)
-else:
-    print("Não há solução possível.")
+nodo = 0
+buscar(nodo, target=True, limit=10, atual=0)
